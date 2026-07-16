@@ -1,0 +1,19 @@
+# Ambientes virtuais
+venv/
+env/
+.env
+
+# Arquivos temporários do Python e sistema
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+#arquivos trusted
+data/processed/*
+!data/processed/.gitkeep
+
+# Pastas do Streamlit/IDE
+.streamlit/
+.vscode/
+.idea/
